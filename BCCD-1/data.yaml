@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['0', '1', '2']
+
+roboflow:
+  workspace: emad-s-workspace
+  project: bccd-eq51l-wdwov
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/emad-s-workspace/bccd-eq51l-wdwov/dataset/1
