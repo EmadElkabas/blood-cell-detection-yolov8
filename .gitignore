@@ -1,6 +1,13 @@
 .env
 __pycache__/
 *.pyc
-drive/
-.config/
-sample_data/
+*.pth
+
+# YOLO temporary files
+runs/
+*.cache
+yolov8n.pt
+logs.txt
+
+# Dataset
+BCCD-1/
